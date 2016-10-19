@@ -8,14 +8,10 @@ class Alumno
 	end
 
 	def calcular_situacion
-		if t1>85
-			if t2 >85
-				return "APROBADO"
-			else
-				return "OBSERVADO"
-			end
+		if t1>85 and t2>85
+			return "APROBADO"
 		else
-			if t2 >85
+			if t1>85 or t2>85
 				return "OBSERVADO"
 			else
 				return "DESAPROBADO"
@@ -24,5 +20,5 @@ class Alumno
 	end
 end
 
-alumno = Alumno.new(85, 86, "Claudio", "U201621489")
+alumno = Alumno.new(85, 85, "Claudio", "U201621489")
 puts alumno.calcular_situacion
