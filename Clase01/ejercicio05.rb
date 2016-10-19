@@ -36,5 +36,11 @@ class Cliente
 	end
 end
 
-cliente = Cliente.new("Claudio", "PLATA", 1201)
-puts cliente.calcular_descuento
+cliente01 = Cliente.new("Claudio", "PLATA", 1200)
+puts cliente01.calcular_descuento
+
+cliente02 = Cliente.new("Fiama", "ORO", 1001)
+puts cliente02.calcular_descuento
+
+cliente03 = Cliente.new("Juan Perez", "Ninguno", 7000)
+puts cliente03.calcular_descuento

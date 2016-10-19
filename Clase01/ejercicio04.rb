@@ -26,5 +26,5 @@ puts alumno01.calcular_situacion
 alumno02 = Alumno.new(86, 85, "Erika", "U201621489")
 puts alumno02.calcular_situacion
 
-alumno02 = Alumno.new(86, 86, "Diana", "U201621489")
-puts alumno02.calcular_situacion
+alumno03 = Alumno.new(86, 86, "Diana", "U201621489")
+puts alumno03.calcular_situacion
