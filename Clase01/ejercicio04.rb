@@ -20,5 +20,11 @@ class Alumno
 	end
 end
 
-alumno = Alumno.new(85, 85, "Claudio", "U201621489")
-puts alumno.calcular_situacion
+alumno01 = Alumno.new(85, 85, "Milagros", "U201621489")
+puts alumno01.calcular_situacion
+
+alumno02 = Alumno.new(86, 85, "Erika", "U201621489")
+puts alumno02.calcular_situacion
+
+alumno02 = Alumno.new(86, 86, "Diana", "U201621489")
+puts alumno02.calcular_situacion
