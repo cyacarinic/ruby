@@ -81,3 +81,9 @@ tiendita.listar()
 puts "================================="
 tiendita.buscar("U201621489")
 tiendita.buscar("123")
+
+
+
+
+tiendita.registar_item(DVD.new("U201621489", "Dr Strange", "2:25", "SI", "No vista", "Invoker"))
+puts rand(20)
