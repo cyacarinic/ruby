@@ -59,9 +59,15 @@ class Tienda
 	end
 
 	def buscar(cod)
-		item = items.find{|a| a.codigo == cod}
-		if item
-			puts "El titulo del item '#{cod}' es '#{item.titulo}'"
+		#found = items.find{|a| a.codigo == cod}
+		found = nil
+		for item in items
+			if item.codigo == cod
+				found = item
+			end
+		end
+		if found
+			puts "El titulo del item '#{cod}' es '#{found.titulo}'"
 		else
 			puts "No existe item para el código '#{cod}'"
 		end
