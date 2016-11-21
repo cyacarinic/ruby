@@ -1,0 +1,92 @@
+================================== EJERCICIO 01
+Producto
+	descripcion
+	precio
+
+Pedido
+	producto
+	cantidad
+
+Carrito
+	pedidos = []
+	ingresar_pedido
+	calcular_total
+
+Clientes
+	dni
+	nombre
+	apellido
+	codigo_cliente (asignado)
+	carrito_de_compras
+	total_pagar
+	calcular_puntos
+
+CLT_NORMAL < Cliente
+	calcular_puntos
+	if consumo > 200
+		10% puntos por cada S/.80
+
+CLT_PLATINIUM < Cliente
+	calcular_puntos
+	if consumo > 500
+		20% puntos por cada S/.150
+
+supermercado Lima
+	clientes = []
+	registar_una_vez (1 normal, 1 premium)
+	calcular_compra_clientes
+	calcular_puntos_clientes
+	buscar_dni (nombre, apellido)
+	
+
+
+================================== EJERCICIO 02
+Juego
+	calcular_puntaje (aleatorio 1..10)
+	puntaje < 4 --> base=10
+	4 <= puntaje < 8 --> base=15
+	8 <= puntaje --> base=20
+	precio=1 sol
+
+Dota 2 < Juego
+	base + 20%
+
+Poker < juego
+	base + 15%
+
+Cars < Juego
+	base + 10%
+
+
+Gamer
+	codigo_gamer
+	jugar (n juegos)
+	if len(jugar/4)==0 --> 1 FREE (cada 3 -> 4ta = gratis)
+
+
+
+
+CALCULAR
+	simular 20 partidas
+	imprimir puntaje x gamer
+	nombre de mayor puntaje
+	total recaudado
+	total gratuitas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
