@@ -1,0 +1,17 @@
+patrones de diseño:
+	soluciones ya probadas para problemas de desarrollo similares
+	Tener en cuenta: [nombre, problema, solución, consecuencias]
+	tipos: [cracionales (Factory), estructurales (singleton), comportamiento (observer), arquitectura]
+
+MVC:
+	separar la lógica de la estrucutra de objetos y vista
+
+SINGLETON:
+	estructural, solo una instancia de clase, un solo objeto
+
+OBSERVER:
+	basado en el envío y recepción de notificaciones, triggers
+
+FACTORY:
+	discutido x diferencias de implementación
+	clase experta encargada de instanciar objetos
