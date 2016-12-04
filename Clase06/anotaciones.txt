@@ -1,0 +1,4 @@
+self.crear: es el metodo que me permite crear un objeto sin instanciar a la clase, en factory,es un metodo abstracto, ya no se necesita new
+
+para la final se necesita: que además de poner el nro de máquina en el recuadro, colocarlo también un poco más arriba de las lineas que lo  separan 
+
