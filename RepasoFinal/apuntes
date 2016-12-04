@@ -1,4 +1,5 @@
-patrones de diseño:
+patrones de diseño
+==================
 	soluciones ya probadas para problemas de desarrollo similares
 	Tener en cuenta: [nombre, problema, solución, consecuencias]
 	tipos: [cracionales (Factory), estructurales (singleton), comportamiento (observer), arquitectura]
@@ -15,3 +16,10 @@ OBSERVER:
 FACTORY:
 	discutido x diferencias de implementación
 	clase experta encargada de instanciar objetos
+
+
+excepciones
+===========
+	diseño defensivo, anticiparse a los errores, ley de murphy
+	metodos de excepciones: message, backtrace (punto de origen)
+	
